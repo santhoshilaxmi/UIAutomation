@@ -1,7 +1,9 @@
 # UIAutomation
 
 Created a BDD framework using maven(3.9.4) and selenium-java(4.12.1),JAVA(17) (Tried to use latest versions ☺)
+
 UI targeted to test - https://do1assessment-e7b0797b1bea.herokuapp.com/about
+
 As part of this Framework tried to cover below 
 1.	Create a feature file (Basic scenarios snapshot below)
 2.	StepDef File which extends BaseClass, Used Before and After Hooks
