@@ -4,7 +4,7 @@ Feature: UI Automation
   Description: This feature file have details
 
 
-# configure the browser here
+# Scenario 0 configure the browser here
   Scenario: : Configure FireFox Browser
     Given I will configure the fireFoxBower
 
