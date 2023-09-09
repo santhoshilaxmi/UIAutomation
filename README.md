@@ -41,11 +41,11 @@ As part of this Framework tried to cover below
 15.	Have Created a Utilities folder and created java and defined methods which could be commonly used across the framework.
 16.	Added a Runner file
 
-Feature File Snapshot
+**Feature File Snapshot**
 
 ![image](https://github.com/santhoshilaxmi/UIAutomation/assets/38223932/b1d17029-918d-4f95-a2c9-62a75705c2ea)
 
-Extent Report SnapShot
+**Extent Report SnapShot**
 
 ![image](https://github.com/santhoshilaxmi/UIAutomation/assets/38223932/410ec068-8cd4-45a4-89c5-bb12ff8e2da5)
 
