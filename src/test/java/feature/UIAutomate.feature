@@ -19,6 +19,12 @@ Feature: UI Automation
   Scenario: Click on the Maturity Assessment
     Given Click on the Maturity Assessment
 
+    
+
+    # Scenario 4 Quit the browser
+  Scenario: Quit the browser
+    Given Quit the browser
+
 
 # Scenario 3 click on detailed reports and then click on DownloadCSV
   Scenario: Click on the DetailedReport
