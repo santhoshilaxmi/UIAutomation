@@ -96,7 +96,6 @@ public class UIAutomationDefs extends BaseClass {
 
     @After
     public void tearDown(){
-      //  tearDownMain();
         System.out.println("I am the After Tag and I completed the RUN");
         reports.flush();
 
@@ -134,5 +133,11 @@ public class UIAutomationDefs extends BaseClass {
         System.out.println("++++ Latest Downlaoded CSV file is at "+LatestFileName+"  ++++++");
         ff.readCSVFile(LatestFileName);
 
+    }
+
+    @Given("Quit the browser")
+    public void quitTheBrowser() {
+
+          tearDownMain();
     }
 }
