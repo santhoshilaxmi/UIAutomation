@@ -25,3 +25,8 @@ Feature: UI Automation
     Given Click on the detailed reports
     Then Click on the "Download CSV"
     And Read the values from the downloaded excel
+
+
+    # Scenario 4 Quit the browser
+  Scenario: Quit the browser
+    Given Quit the browser

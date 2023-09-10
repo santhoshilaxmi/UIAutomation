@@ -135,4 +135,10 @@ public class UIAutomationDefs extends BaseClass {
         ff.readCSVFile(LatestFileName);
 
     }
+
+    @Given("Quit the browser")
+    public void quitTheBrowser() {
+
+          tearDownMain();
+    }
 }
