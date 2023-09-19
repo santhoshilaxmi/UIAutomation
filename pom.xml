@@ -173,7 +173,7 @@
       </execution>
       <execution>
             <id>jacoco-site</id>
-            <phase>package</phase>
+            <phase>prepare-package</phase>
                <goals>
                	<goal>report</goal>
                </goals>
