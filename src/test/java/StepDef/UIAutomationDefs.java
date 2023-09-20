@@ -96,7 +96,6 @@ public class UIAutomationDefs extends BaseClass {
 
     @After
     public void tearDown(){
-      //  tearDownMain();
         System.out.println("I am the After Tag and I completed the RUN");
         reports.flush();
 

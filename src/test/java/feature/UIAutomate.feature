@@ -1,4 +1,5 @@
 @UIAutomation
+
 Feature: UI Automation
   Description: This feature file have details
 
