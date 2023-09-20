@@ -1,8 +1,6 @@
 @UIAutomation
-
 Feature: UI Automation
   Description: This feature file have details
-
 
 # configure the browser here
   Scenario: : Configure FireFox Browser
@@ -14,18 +12,15 @@ Feature: UI Automation
     Then Click on the Next
     And Fill the details
 
-
 # Scenario 2 Come to home page
   Scenario: Click on the Maturity Assessment
     Given Click on the Maturity Assessment
-
 
 # Scenario 3 click on detailed reports and then click on DownloadCSV
   Scenario: Click on the DetailedReport
     Given Click on the detailed reports
     Then Click on the "Download CSV"
     And Read the values from the downloaded excel
-
 
     # Scenario 4 Quit the browser
   Scenario: Quit the browser
