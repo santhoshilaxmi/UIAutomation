@@ -175,7 +175,6 @@
                         <id>jacoco-site</id>
                         <phase>prepare-package</phase>
                         <goals>
-<!--                            <goal>test</goal>-->
                             <goal>report</goal>
                         </goals>
                     </execution>
